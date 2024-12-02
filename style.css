@@ -8,6 +8,7 @@
 
 :root{
   --primary-blue: #133A79;
+  --primmary-green: #0bb10b;
 }
 
 header{
@@ -25,6 +26,10 @@ main{
 
   display: flex;
   justify-content: space-around;
+}
+
+main h3{
+  color: var(--primmary-green);
 }
 
 main ul{
