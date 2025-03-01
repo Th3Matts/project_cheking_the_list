@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -24,4 +25,49 @@ header{
 
 main{
   margin: 2rem;
+=======
+  font-family: Poppins;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --primary-blue: #133A79;
+  --primmary-green: #0bb10b;
+}
+
+header{
+  color: #F1F1F1;
+
+  background: var(--primary-blue);
+
+  text-align: center;
+
+  padding: 2rem;
+}
+
+main{
+  margin: 2rem 1rem;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+main h3{
+  color: var(--primmary-green);
+}
+
+main ul{
+  list-style: none;
+}
+
+main ul li{
+  margin: 1rem;
+}
+
+ul>li label{
+  margin: .5rem;
+>>>>>>> dca28a9d8c7e422b7d7ec0062fc47b049edfa704
 }
