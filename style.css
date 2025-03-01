@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+html{
+  font-family: Poppins;
+}
+
+header{
+  font-size: 1.75rem;
+  font-weight: bolder;
+
+  color: #F1f1f1;
+  background: rgb(174, 75, 240);
+
+  text-align: center;
+
+  padding: 3rem 1rem;
+}
+
+main{
+  margin: 2rem;
+}
